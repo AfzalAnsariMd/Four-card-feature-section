@@ -1,5 +1,5 @@
 * {
-    background-color: burlywood;
+    background-color: white;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -24,14 +24,21 @@
     font-size: 34px;
     text-align: center;
     font-weight: bold;
+    color:  hsl(234, 12%, 34%);
     
 }
 .para3{
     text-align: center;
 }
+.anotherline{
+    text-align: center;
+
+
+}
 .container{
-    margin:5% 3%;
-    background-color: rgb(186, 34, 7);
+    padding:5% 3%;
+    background-color: rgb(228, 221, 221);
+    
     
 }
 .subcontainer{
@@ -57,4 +64,11 @@
     width: 300px;
     height: 250px;
     background-color: slateblue;
+}
+.innerclass1,.innerclass2,.innerclass3,.innerclass4{
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    margin:56px;
+    margin-top: 89px;
+    
 }
