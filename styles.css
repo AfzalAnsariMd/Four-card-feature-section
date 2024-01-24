@@ -26,9 +26,35 @@
     font-weight: bold;
     
 }
+.para3{
+    text-align: center;
+}
 .container{
-    margin:3%;
+    margin:5% 3%;
     background-color: rgb(186, 34, 7);
-    width: 450px;
-    height: 500px;
+    
+}
+.subcontainer{
+
+}
+.block1{
+    width: 300px;
+    height: 250px;
+    background-color: darkblue;
+    
+}
+.block2{
+    width: 300px;
+    height: 250px;
+    background-color: khaki;
+}
+.block3{
+    width: 300px;
+    height: 250px;
+    background-color: hotpink;
+}
+.block4{
+    width: 300px;
+    height: 250px;
+    background-color: slateblue;
 }
