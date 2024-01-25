@@ -68,7 +68,16 @@
 .innerclass1,.innerclass2,.innerclass3,.innerclass4{
     text-align: center;
     color: hsl(234, 12%, 34%);
-    margin:56px;
-    margin-top: 89px;
+    font-size: large;
     
+
+   
+    
+}
+.subcontainer2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
 }
