@@ -19,65 +19,114 @@
 .para1{
     font-size: 34px;
     text-align: center;
+    color:hsl(229, 6%, 66%);
+    padding-top: 30px;
+    /* padding-bottom: ; */
 }
 .para2{
     font-size: 34px;
     text-align: center;
     font-weight: bold;
     color:  hsl(234, 12%, 34%);
+    padding-bottom: 19px;
     
 }
 .para3{
     text-align: center;
+    color: hsl(229, 6%, 66%);
+    /* width:1368px; */
+    padding-bottom: 66px;
 }
 .anotherline{
     text-align: center;
 
 
 }
-.container{
+/* .container{
     padding:5% 3%;
     background-color: rgb(228, 221, 221);
     
     
-}
+} */
 .subcontainer{
 
 }
 .block1{
-    width: 300px;
+    width: 350px;
     height: 250px;
-    background-color: darkblue;
+    /* background-color: darkblue; */
+    border:2px solid rebeccapurple;
+    /* background-color: hsl(0, 0%, 98%); */
+    color:hsl(229, 6%, 66%);
+    position: relative;
+    /* display: flex;
+    justify-content: end;
+    align-items: end; */
+    
     
 }
+
 .block2{
-    width: 300px;
+    width: 350px;
     height: 250px;
-    background-color: khaki;
+    /* background-color: khaki; */
+    border:2px solid khaki;
+    color: hsl(229, 6%, 66%);
+    position:relative;
+    /* background-color: hsl(0, 0%, 98%); */
 }
 .block3{
-    width: 300px;
+    width: 350px;
     height: 250px;
-    background-color: hotpink;
+    /* background-color: hotpink; */
+    border:2px solid yellowgreen;
+    color:hsl(229, 6%, 66%);
+    position: relative;
+    /* background-color: hsl(0, 0%, 98%); */
 }
 .block4{
-    width: 300px;
+    width: 350px;
     height: 250px;
-    background-color: slateblue;
+    /* background-color: slateblue; */
+    border:2px solid steelblue;
+    color:hsl(229, 6%, 66%);
+    position: relative;
+    /* background-color: hsl(0, 0%, 98%); */
+}
+.bottom-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right:23px;
+    padding-bottom: 33px;
 }
 .innerclass1,.innerclass2,.innerclass3,.innerclass4{
     text-align: center;
     color: hsl(234, 12%, 34%);
-    font-size: large;
+    font-size: 25px;
+    font-weight: bolder;
+    display: block;
+    /* padding: 22px; */
+    padding-top: 22px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 33px;
     
 
    
     
 }
+
 .subcontainer2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-
+    /* padding-left: 100px; */
+    /* position: relative; */
+}
+.inner-para1{
+    width: 250px;
+    padding-left: 35px;
+    font-size: 12px;
 }
