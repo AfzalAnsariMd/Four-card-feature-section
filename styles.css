@@ -126,6 +126,7 @@
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center;
+    width:fit-content;
   }
   .block1,
   .block3 {
